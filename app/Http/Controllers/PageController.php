@@ -9,6 +9,7 @@ class PageController extends Controller
 {
     public function list (){
        $film = Movie::all();
-       dd($film);
+    //    dd($film);
+    return view('list', compact('film'));
     }
 }
