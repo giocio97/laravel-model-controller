@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 15%;
+  padding: 25px;
+  background-color: greenyellow;
+    margin: 20px;
+}
+
